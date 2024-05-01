@@ -17,7 +17,7 @@ function TrackStatus() {
                         <img src="/images/trackstatuslogo.png" className="logo-events" alt="trackstatuslogo" />
                         <a href="#home">Track Status</a>
                     </div>
-                    <button className="logout-button">Logout</button>
+                    <button className="logout-button"><Link to={'/'} className="link" id="link">Logout</Link></button>
                 </div>
             </nav>
             <div className="trackstatusform">

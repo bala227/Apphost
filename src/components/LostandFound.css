@@ -1,20 +1,3 @@
-.lostandfound .nav{
-    padding-right: 490px;
-}
-.lostandfound .logout-button{
-    margin-right: 70px;
-}
-
-.lostandfound nav ul{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    gap:50px;
-    list-style: none;
-    background-color: white;
-    padding: 30px;
-    font-size:18px;
-}
 .lostbody{
     background-image: linear-gradient(rgba(255, 255, 255, 0.715), rgba(255, 255, 255, 0.715)), url('../../public/images/mainimg.png');
     background-size: 100%;

@@ -84,3 +84,7 @@
 .event-monthly .event-date-time{
     margin:8px 0 20px 0;
 }
+.anchor-ele{
+    text-decoration: none;
+    color:black;
+}

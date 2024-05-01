@@ -1,5 +1,6 @@
 import React,{useState, useEffect} from "react";
 import './Events.css';
+import {Link} from "react-router-dom";
 
 function CarouselGrid(){
     const monthly_events=[
@@ -49,11 +50,13 @@ function CarouselGrid(){
         <div className="carousel-grid">
             {monthly_events.map((item,index)=>{
                 return (
+                    <Link to={'/eventupdates'} className="anchor-ele">
                     <div className="event-monthly" key={index}>
                         <img src={item.image_src} alt="event1" />
                         <h4 className="event-name" key={index}>{item.title}</h4>
                         <p className="event-date-time" key={index}>{item.date_time}</p>
                     </div>
+                    </Link>
                 );    
             })}
         </div>

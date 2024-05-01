@@ -66,6 +66,7 @@
     margin-top:20px;
 }
 .submit-suggestion:hover{
+    background-color: black;
     cursor: pointer;
 }
 #subjectinput{

@@ -1,12 +1,25 @@
 import React from 'react'
 import './CalculateGPA.css';
-import Navbar from "./Navbar";
 import Footer from "./Footer";
+import { Link } from 'react-router-dom';
 
 export const CalculateGPA = () => {
   return (
     <div className='calculategpa'>
-        <Navbar />
+        <nav className="raiseQueryBar">
+                <img src="/images/logo_psg4u.png" alt="psg4u logo" className="logo-events-page" />
+                <div className="nav-list-raise-query">
+                    <div className="nav">
+                        <img src="/images/homelogo.png" className="logo-events" alt="homelogo" />
+                        <a href="#home"><Link to={'/main'} class='link'>Home</Link></a>
+                    </div>
+                    <div className="nav">
+                        <img src="/images/progress-check.png" className="logo-events" alt="trackstatuslogo" />
+                        <a href="#strategy">Build Strategy</a>
+                    </div>
+                    <button className="logout-button"><Link to={'/'} className="link" id="link">Logout</Link></button>
+                </div>
+            </nav>
         <div className='navdown'>
                 <div className="selectsem">
                         <label for="category">

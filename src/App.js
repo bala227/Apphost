@@ -17,6 +17,7 @@ import BookClassroom from './components/BookClassroom.jsx';
 import BookClassroomTrackStatus from './components/BookClassroomTrackStatus';
 import { CalculateGPA } from './components/CalculateGPA.jsx';
 import LevelUpLink from './components/LevelUpLink';
+import EventUpdates from './components/EventUpdates';
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
           <Route path="/bookclassroom" element={<BookClassroom />} />
           <Route path="/bookclassroomtrackstatus" element={<BookClassroomTrackStatus />} />
           <Route path="/calculategpa" element={<CalculateGPA />} />
+          <Route path="/eventupdates" element={<EventUpdates />} />
         </Routes>
       </Router>
     </div>

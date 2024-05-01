@@ -1,23 +1,13 @@
 import React from 'react'
 import './AfternoonMenu.css';
-import { Link } from 'react-router-dom';
+import Navbar from "./Navbar";
 import './LostandFound.css';
 import Footer from "./Footer";
 
 export const LostandFound = () => {
   return (
     <div className='lostandfound'>
-      <nav className="eventsBar">
-        <img src="/images/logo_psg4u.png" alt="psg4u logo" className="logo-events-page" />
-        <div className="nav-list-events">
-            <div className="nav">
-                <img src="/images/homelogo.png" className="logo-events" alt="homelogo" />
-                <a href='#home'><Link to={'/main'} class='link'>Home</Link></a>
-            </div>
-            <button className="logout-button"><Link to={'/'} className='link' id='link'>Logout</Link></button>
-        </div>
-      </nav>
-
+      <Navbar />
       <div className='lostbody'>
             <div className='lostitems'>
                 <p className='losttitle'>LOST AND FOUND</p>

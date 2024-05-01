@@ -17,7 +17,7 @@ function SuggestForm() {
                         <img src="/images/suggestlogo.png" className="logo-events" alt="suggestlogo" />
                         <a href="#home"><Link to={'/suggest'} class='link'>Suggest</Link></a>
                     </div>
-                    <button className="logout-button">Logout</button>
+                    <button className="logout-button"><Link to={'/'} className="link" id="link">Logout</Link></button>
                 </div>
             </nav>
             <div className="suggestform">
@@ -49,7 +49,7 @@ function SuggestForm() {
                         </label>
                         <input type="text" className="type-text" id="yournameinput"></input>
                     </div>
-                    <button type="submit" className="submit-suggestion"><Link to={'/reward'} class="link">Submit</Link></button>
+                    <button type="submit" className="submit-suggestion"><Link to={'/reward'} class="link" id="link">Submit</Link></button>
                 </form>
             </div>
             <p className="optional">(OPTIONAL)</p>
