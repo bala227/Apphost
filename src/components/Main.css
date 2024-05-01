@@ -41,7 +41,7 @@ html{
 .navbar .logout:hover{
   text-decoration: none;
   background-color: #000000;
-  color: #6C8BBA;
+  color:#D0E1FB;
 }
 .homeimg{ 
   position: relative;
@@ -231,5 +231,6 @@ html{
   text-decoration: none;
 }
 #link:hover{
-  color: #6C8BBA;
+  color:#D0E1FB;
+  cursor: pointer;
 }

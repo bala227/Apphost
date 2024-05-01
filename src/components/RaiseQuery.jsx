@@ -17,7 +17,7 @@ function RaiseQuery() {
                         <img src="/images/trackstatuslogo.png" className="logo-events" alt="trackstatuslogo" />
                         <a href="#home"><Link to={'/trackstatus'} class='link'>Track Status</Link></a>
                     </div>
-                    <button className="logout-button"><Link to={'/'} className="link" id="link">Logout</Link></button>
+                    <Link to={'/'} className="link"><button className="logout-button">Logout</button></Link>
                 </div>
             </nav>
             <div className="raisequeryform">

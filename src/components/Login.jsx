@@ -46,7 +46,7 @@ function Login(){
                         <input type="password" name="password" className="input"/>
                     </div>
                     </div>
-                    <button type="submit" class="submit"><Link to={'/main'} id="link" class="link">Submit</Link></button>
+                    <Link to={'/main'} class="link"><button type="submit" class="submit">Submit</button></Link>
                     <Link to={'forgotpassword'} class="link">Forgot Password?</Link>
                 </form>
             </div>

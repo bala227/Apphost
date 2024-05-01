@@ -31,7 +31,7 @@ export const Main = () => {
           <li>Home</li>
           <img src="/images/person.png" className='personimg' alt='personimg'/>
           <li onClick={myacc}>My account</li>
-          <li className='logout'><Link to={'/'} id='link'>Logout</Link></li>
+          <Link to={'/'} class='link'><li className='logout'>Logout</li></Link>
         </ul>
       </nav>
       <section id='sect'>

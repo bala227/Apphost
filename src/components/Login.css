@@ -87,6 +87,7 @@ form{
 }
 .submit:hover{
     background-color: #000000;
+    cursor: pointer;
 }
 .link{
     color:black;

@@ -17,7 +17,7 @@ export const CalculateGPA = () => {
                         <img src="/images/progress-check.png" className="logo-events" alt="trackstatuslogo" />
                         <a href="#strategy">Build Strategy</a>
                     </div>
-                    <button className="logout-button"><Link to={'/'} className="link" id="link">Logout</Link></button>
+                    <Link to={'/'} className="link" id="link"><button className="logout-button">Logout</button></Link>
                 </div>
             </nav>
         <div className='navdown'>

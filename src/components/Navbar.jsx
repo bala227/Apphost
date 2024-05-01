@@ -10,7 +10,7 @@ function Navbar() {
                 <img src="/images/homelogo.png" className="logo-events" alt="homelogo" />
                 <a href="#home"><Link to={'/main'} class='link'>Home</Link></a>
             </div>
-            <button className="logout-button"><Link to={'/'} className="link" id="link">Logout</Link></button>
+            <Link to={'/'} class="link"><button className="logout-button">Logout</button></Link>
         </div>
     </nav>
 }

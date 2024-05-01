@@ -17,7 +17,7 @@ function LevelUpLink() {
                         <img src="/images/suggestlogo.png" className="logo-events" alt="suggestlogo" />
                         <a href="#home"><Link to={'/suggest'} class='link'>Suggest</Link></a>
                     </div>
-                    <button className="logout-button"><Link to={'/'} className="link" id="link">Logout</Link></button>
+                    <Link to={'/'} className="link" id="link"><button className="logout-button">Logout</button></Link>
                 </div>
             </nav>
             <div className="level-up-link img">
