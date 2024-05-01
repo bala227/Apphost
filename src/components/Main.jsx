@@ -51,7 +51,7 @@ export const Main = () => {
         </div>
 
         <div className='studies' id='query'>
-            <img src="/images/clip_red.png" className='clip' alt='clip'/>
+            <img src="/images/clip_red.png" className='rclip' alt='clip'/>
             <div className='title'>Raise query</div>
             
 
@@ -63,7 +63,7 @@ export const Main = () => {
         </div>
 
         <div className='studies' id='canteen'>
-            <img src="/images/clip_green.png" className='clip' alt='clip'/>
+            <img src="/images/clip_green.png" className='gclip' alt='clip'/>
             <div className='title'>Canteen</div>
             
 

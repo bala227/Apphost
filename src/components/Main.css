@@ -69,6 +69,7 @@ html{
   font-size: 20px;
   padding-top: 10px;
   box-shadow: 0px 4px 25px 0px #00000040;
+  position: relative;
 }
 .studies p{
   margin-left: 30%;
@@ -76,29 +77,29 @@ html{
 }
 .emoji1{
   position: absolute;
-  top: 35%;
-  left: 33%;
+  top: 23%;
+  left: 27%;
   width: 40px;
   height: 40px;
 }
 .emoji2{
   position: absolute;
-  top: 46%;
-  left: 33%;
+  top: 43%;
+  left: 27%;
   width: 40px;
   height: 40px;
 }
 .emoji3{
   position: absolute;
-  top: 58%;
-  left: 33%;
+  top: 63%;
+  left: 27%;
   width: 40px;
   height: 40px;
 }
 .emoji4{
   position: absolute;
-  top: 69%;
-  left: 33%;
+  top: 81%;
+  left: 27%;
   width: 40px;
   height: 40px;
 }
@@ -115,28 +116,42 @@ html{
 }
 .clip{
   position:absolute;
-  top: 120px;
+  top: -40px;
   width: 80px;
   height: 80px;
 }
 #query{
   height: 250px;
+  position: relative;
+}
+#query .rclip{
+  position:absolute;
+  top: -40px;
+  width: 80px;
+  height: 80px;
+}
+#query .emoji1{
+  top: 40%;
+}
+#query .emoji2{
+  top: 73%;
 }
 #canteen{
   height: 250px;
   margin-bottom: 100px;
+  position: relative;
 }
-#query .emoji1{
-  top: 104%;
-}
-#query .emoji2{
-  top: 116%;
+#canteen .gclip{
+  position:absolute;
+  top: -40px;
+  width: 80px;
+  height: 80px;
 }
 #canteen .emoji1{
-  top: 149%;
+  top: 40%;
 }
 #canteen .emoji2{
-  top: 161%;
+  top: 73%;
 }
 #query .clip{
   top: 84%;
