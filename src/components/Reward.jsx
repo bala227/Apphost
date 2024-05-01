@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
 import "./Reward.css";
+import { Button } from "./Button";
 
 function Reward() {
     return (
@@ -17,7 +18,7 @@ function Reward() {
                         <img src="/images/suggestlogo.png" className="logo-events" alt="suggestlogo" />
                         <a href="#home"><Link to={'/suggest'} class='link'>Suggest</Link></a>
                     </div>
-                    <button className="logout-button"><Link to={'/'} className="link" id="link">Logout</Link></button>
+                    <Link to={'/'} className="link" id="link"><Button name="Logout" /></Link>
                 </div>
             </nav>
             <div className="reward">

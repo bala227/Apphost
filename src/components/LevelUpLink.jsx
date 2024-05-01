@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
 import "./LevelUpLink.css";
+import { Button } from "./Button";
 
 function LevelUpLink() {
     return (
@@ -17,7 +18,7 @@ function LevelUpLink() {
                         <img src="/images/suggestlogo.png" className="logo-events" alt="suggestlogo" />
                         <a href="#home"><Link to={'/suggest'} class='link'>Suggest</Link></a>
                     </div>
-                    <Link to={'/'} className="link" id="link"><button className="logout-button">Logout</button></Link>
+                    <Link to={'/'} className="link" id="link"><Button name="Logout" /></Link>
                 </div>
             </nav>
             <div className="level-up-link img">

@@ -2,6 +2,7 @@ import React from "react";
 import './ForgotPassword.css';
 import {Link} from "react-router-dom";
 import Footer from "./Footer";
+import { Button } from "./Button";
 
 function ForgotPassword(){
     return (
@@ -31,7 +32,7 @@ function ForgotPassword(){
                     </label>
                     <input type="password" name="password" className="input" id="otpinput"/>
                     </div>
-                    <button type="submit" class="submit"><Link to={'/confirmpassword'} className="link" id="link">Verify</Link></button>
+                    <Link to={'/confirmpassword'} className="link" id="link"><Button name="Verify" /></Link>
                 </form>
             </div>
             </div>

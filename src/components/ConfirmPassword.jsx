@@ -2,6 +2,7 @@ import React from "react";
 import './ConfirmPassword.css';
 import {Link} from "react-router-dom";
 import Footer from './Footer';
+import { Button } from "./Button";
 
 function ConfirmPassword(){
     return (
@@ -39,7 +40,7 @@ function ConfirmPassword(){
                     <input type="password" name="password" className="input"/>
                     </div>
                     
-                    <button type="submit" class="submit"><Link to={'/login'} class="link" id="link">Confirm</Link></button>
+                    <Link to={'/login'} class="link" id="link"><Button name="Confirm" /></Link>
                 </form>
             </div>
             </div>

@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "./Footer";
 import {Link} from "react-router-dom";
 import "./TrackStatus.css";
+import { Button } from "./Button";
 
 function TrackStatus() {
     return (
@@ -17,7 +18,7 @@ function TrackStatus() {
                         <img src="/images/trackstatuslogo.png" className="logo-events" alt="trackstatuslogo" />
                         <a href="#home">Track Status</a>
                     </div>
-                    <Link to={'/'} className="link" id="link"><button className="logout-button">Logout</button></Link>
+                    <Link to={'/'} className="link" id="link"><Button name="Logout" /></Link>
                 </div>
             </nav>
             <div className="trackstatusform">

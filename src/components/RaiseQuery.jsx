@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "./Footer";
 import {Link} from "react-router-dom";
 import "./RaiseQuery.css";
+import { Button } from "./Button";
 
 function RaiseQuery() {
     return (
@@ -17,7 +18,7 @@ function RaiseQuery() {
                         <img src="/images/trackstatuslogo.png" className="logo-events" alt="trackstatuslogo" />
                         <a href="#home"><Link to={'/trackstatus'} class='link'>Track Status</Link></a>
                     </div>
-                    <Link to={'/'} className="link"><button className="logout-button">Logout</button></Link>
+                    <Link to={'/'} className="link"><Button name="Logout"/></Link>
                 </div>
             </nav>
             <div className="raisequeryform">
@@ -63,7 +64,7 @@ function RaiseQuery() {
                             <input type="text" className="type-text"></input>
                         </div>
                     </div>
-                    <button type="submit" className="register-complaint">Register</button>
+                    <Button name="Register"/>
                 </form>
             </div>
             <Footer />

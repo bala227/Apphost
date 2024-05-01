@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
 import "./SuggestForm.css";
+import { Button } from "./Button";
 
 function SuggestForm() {
     return (
@@ -17,7 +18,7 @@ function SuggestForm() {
                         <img src="/images/suggestlogo.png" className="logo-events" alt="suggestlogo" />
                         <a href="#home"><Link to={'/suggest'} class='link'>Suggest</Link></a>
                     </div>
-                    <Link to={'/'} className="link" id="link"><button className="logout-button">Logout</button></Link>
+                    <Link to={'/'} className="link" id="link"><Button name="Logout" /></Link>
                 </div>
             </nav>
             <div className="suggestform">
@@ -49,7 +50,7 @@ function SuggestForm() {
                         </label>
                         <input type="text" className="type-text" id="yournameinput"></input>
                     </div>
-                    <Link to={'/reward'} class="link" id="link"><button type="submit" className="submit-suggestion">Submit</button></Link>
+                    <Link to={'/reward'} class="link" id="link"><Button name="Submit" /></Link>
                 </form>
             </div>
             <p className="optional">(OPTIONAL)</p>

@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "./Footer";
 import {Link} from "react-router-dom";
 import "./BookClassRoom.css";
+import { Button } from "./Button";
 
 function BookClassroom() {
     return (
@@ -17,7 +18,7 @@ function BookClassroom() {
                         <img src="/images/trackstatuslogo.png" className="logo-events" alt="trackstatuslogo" />
                         <a href="#home"><Link to={'/bookclassroomtrackstatus'} class='link'>Track Status</Link></a>
                     </div>
-                    <Link to={'/'} className="link" id="link"><button className="logout-button">Logout</button></Link>
+                    <Link to={'/'} className="link" id="link"><Button name="Logout" /></Link>
                 </div>
             </nav>
             <div className="raisequeryform">
@@ -85,7 +86,7 @@ function BookClassroom() {
                             <input type="text" className="type-text" id="eventinput"></input>
                         </div>
                     </div>
-                    <button type="submit" className="book-classroom">Book</button>
+                    <Button name="Book" />
                 </form>
             </div>
             <Footer />
